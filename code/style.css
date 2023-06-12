@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.firstpage{
+    background-color: rgba(22,22,22,0.7);
+    padding-bottom: 2%;
+    
+}   
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f5f5;
+    background-image:url(bckimg.jpg);
+    background-size: 1500px 485px;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+.logoimg{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+h3{
+    font-weight: lighter;
+}
+button{
+    background-color: red;
+    margin-inline: 22px;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border:none
+}
+.bton{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+button:hover{
+    background-color: rgb(188, 21, 21);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+select{
+    background-color: rgba(22,22,22,0.7);
+    color: white;
+    border:0px rgba(128,128,128,0.7);
+    width: 100px;
+    height: 30px;
+}svg{
+    background-color: rgba(22,22,22,0.7);
+    color: #ffffff;
+    border:0px rgba(128,128,128,0.7);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.first{
+    text-align: center;
+}
+.first h1{
+    font-size: 45px;
+    padding-top: 140px;
+}
+.first h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.first p{
+    font-size: 19px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 15px;
+}
+input{
+    width: 350px;
+    height: 45px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(128,128,128,0.7) ;
+    background-color: rgba(22,22,22,0.7);
+}
+.start{
+    width: 160px;
+    height: 45px;
+    margin-inline: 1px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+details > summary {
+    padding: 2%;
+    width: 700px;
+    background-color: rgb(62, 62, 62);
+    border: 1px solid rgb(62, 62, 62);
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 14%;
+    font-size: 18px;
+
+}
+details > p{
+    background-color: rgb(62, 62, 62);
+    padding: 4px;
+    margin-left: 14%;;
+    font-weight: 50;
+    width: 730px;
+    text-align: center;
+}
+.que h1{
+    text-align: center;
+    border-top:8px solid rgb(31, 29, 29);
+    padding-top: 5%;
+    font-size: 40px;
+}
+.que{
+    margin-top: 20px;
+}
+.ans{
+    margin-top: 3%;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 66px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10%;
+    border-top:8px solid rgb(31, 29, 29);
+}
+.second video{
+    width: 320px;
+}
+
+.second img{
+    width: 400px;
+}
+.second h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.second p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer{
+    border-top:8px solid rgb(31, 29, 29);
+    margin-top: 50px;
+    color: rgb(181, 170, 170);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding:44px;
+    font-size: 11px;
+    padding-top: 30px;
+}
+.Call{
+      padding-top: 50px;
+      padding-left: 15%;
+}
+.footer p{
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.first-last{
+    margin-top: 4%;
+    padding-left: 25%;
+}
+.end{
+    padding: 15%;
+    margin-top: 0%;
+    padding-top: 0%;
+     flex-direction: row;
+}
+.end p{
+    font-size: 12px;
+    color: rgb(181, 170, 170);
+    margin-top: 15px;
+}
+.end select{
+    background-color: rgba(22,22,22,0.7);;
+    border: 1px solid rgba(128,128,128,0.7);
+    border-radius: 3px;
+    height: 23px; 
+    width: 95px;
+    text-align: center;
+}
